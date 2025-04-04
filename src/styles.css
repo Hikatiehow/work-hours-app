@@ -1,0 +1,13 @@
+/* Save animation - green flash */
+@keyframes saveAnimation {
+  0% {
+    background-color: #4caf50;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.saveSuccess {
+  animation: saveAnimation 1.5s forwards;
+}
